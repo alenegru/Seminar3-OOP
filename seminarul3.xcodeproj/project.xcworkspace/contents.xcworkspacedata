@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../seminarul3/Auto.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/Auto.h">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/kunde.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/kunde.h">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/lkw.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/lkw.h">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/main.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/pkw.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/pkw.h">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/rental.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../seminarul3/rental.h">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
