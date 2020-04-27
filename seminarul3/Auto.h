@@ -20,6 +20,8 @@ public:
 	void setId(int newId);
 	void setMarke(string newMarke);
 	void setModell(string newModell);
+    
+    void show_auto(); 
 
 };
 

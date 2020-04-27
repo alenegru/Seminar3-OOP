@@ -1,4 +1,6 @@
 #include "Auto.h"
+#include <iostream>
+using namespace std;
 
 Auto::Auto() {
     id = 0;
@@ -22,4 +24,7 @@ void Auto::setId(int newId) { this->id = newId; }
 void Auto::setMarke(string newMarke) { this->marke = newMarke; }
 void Auto::setModell(string newModell) { this->modell = newModell; }
 
+void Auto::show_auto() {
+    cout << "ID: " << id << " Marke: " << marke << " Modell: " << modell << endl;
+}
 

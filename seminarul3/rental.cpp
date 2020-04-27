@@ -1,4 +1,6 @@
 #include "rental.h"
+#include <iostream>
+using namespace std;
 
 void Rental::addClient(Kunde c) {
 	if (clients.size() == 0) {
@@ -63,4 +65,16 @@ void Rental::updateClient(Kunde c, string newName) {
 			clients[i].setName(newName);
 		}
 	}
+}
+
+void Rental::show_orders() {
+    cout << "Orders:\n";
+
+    for (int i = 0; i < clients.size(); i++) {
+        cout << "ID: " << clients[i].getId() << " Name: " << clients[i].getName() << " List:\n";
+        for (int j = 0; j < clients[i].orders.size(); j++)
+            clients[i].orders[j].show_auto();
+        cout << endl;
+    }
+     
 }

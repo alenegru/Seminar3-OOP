@@ -15,6 +15,7 @@ public:
 	void updateClient(Kunde c, string newName);
 	void addAuto(Auto a);
 	void deleteAuto(Auto a);
+    void show_orders();
 
 };
 
